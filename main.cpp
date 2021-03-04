@@ -389,6 +389,7 @@ int main()
                     cout << "Sorry! Enter a number between 1 and 21, inclusive." << endl;
             } while(numSeeds >= 22 || numSeeds <= 1);
         }
+
         // If user chooses 2, this is where we plant seeds.
         // If user hasn't chosen a seed type yet, DON'T allow them to plant any seeds. Then check whether
         // there is enough space in the garden function.
@@ -400,51 +401,88 @@ int main()
                 // calling setPrice() for the row's crops, otherwise set price to 0.0 before calling setPrice()
                 if(currentRow <= 5)
                 {
+                    // Finally, plant the seeds!
                     plantSeed(currentRow, currentSeedType, row1Crop, row2Crop, row3Crop, row4Crop, row5Crop);
                     if(tolower(getYorN("Do you want to add fertilizer?")) == 'y')
                         price = 1.99;
                     else
                         price = 0.0;
+                    // Display message telling them how many seeds they planted, the type of seed they planted,
+                    // and how much money this row will make
+                    cout << "You have planted " << numSeeds << " " << currentSeedType << " seeds." << endl;
                     setRowPrice(currentRow, currentSeedType, price, numSeeds, row1Cost, row2Cost, row3Cost, row4Cost, row5Cost);
-                    currentRow++;
+                    currentRow++; allWatered = false; numSeeds = 0; currentSeedType = "EMPTY";
+                    switch(currentRow){
+                        case(1):
+                            cout << "Row 1 is worth: $" << fixed << setprecision(2) << row1Cost << endl; break;
+                        case (2):
+                            cout << "Row 2 is worth: $" << fixed << setprecision(2) << row2Cost << endl; break;
+                        case (3):
+                            cout << "Row 3 is worth: $" << fixed << setprecision(2) << row3Cost << endl; break;
+                        case (4):
+                            cout << "Row 4 is worth: $" << fixed << setprecision(2) << row4Cost << endl; break;
+                        case (5):
+                            cout << "Row 5 is worth: $" << fixed << setprecision(2) << row5Cost << endl; break;
+                    }
                 }
-                cout << "You have planted " << numSeeds << " " << currentSeedType << " seeds." << endl;
-                switch(currentRow){
-                    case(1):
-                        cout << "Row 1 is worth: $" << fixed << setprecision(2) << row1Cost << endl; break;
-                    case (2):
-                        cout << "Row 2 is worth: $" << fixed << setprecision(2) << row2Cost << endl; break;
-                    case (3):
-                        cout << "Row 3 is worth: $" << fixed << setprecision(2) << row3Cost << endl; break;
-                    case (4):
-                        cout << "Row 4 is worth: $" << fixed << setprecision(2) << row4Cost << endl; break;
-                    case (5):
-                        cout << "Row 5 is worth: $" << fixed << setprecision(2) << row5Cost << endl; break;
+                else
+                {
+                    cout << "Sorry! Your garden is full!" << endl;
                 }
+
             }
             else
                 cout << "Sorry! You must select a seed type first." << endl;
         }
 
-
-
-        // Finally, plant the seeds!
-
-        // Display message telling them how many seeds they planted, the type of seed they planted,
-        // and how much money this row will make
-
-        // Update the row number and notice that now, not all of our crops are watered...
-        // Also, reset numSeeds and currentSeedType since you do not have any seeds left
-
         // If user chooses 3, water all crops to let them grow! If no crops to water, let user know of the error.
+        if(choice == 3)
+        {
+            if(row1Crop != "NA")
+            {
+                waterPlants(currentRow, allWatered);
+                cout << "All crops have been watered." << endl;
+            }
+            else
+            {
+                cout << "Sorry! You need to have crops planted before you can water them!" << endl;
+            }
+        }
 
         // If user chooses 4, harvest the crops, sell all the rows, clear the fields, reset currentRow, and update
         // the total amount of money and harvests. User can only harvest crops if all crops are watered.
+        if(choice == 4)
+        {
+            if(allWatered)
+            {
+                harvestCrops(row1Crop, row2Crop, row3Crop, row4Crop, row5Crop);
+                harvestPrice = sellHarvest(row1Cost, row2Cost, row3Cost, row4Cost, row5Cost);
+                totalPrice += harvestPrice;
+                totalHarvests++;
+                cout << "This harvest was worth: $" << fixed << setprecision(2) << harvestPrice << ".";
+                cout << "You have made: $" << fixed << setprecision(2) << totalPrice << " on " << totalHarvests << " harvests so far." << endl;
+                clearFields(row1Crop, row2Crop, row3Crop, row4Crop, row5Crop);
+                currentRow = 0;
+            }
+            else
+            {
+                cout << "Sorry! You can only harvest if you have planted and watered all of your crops!" << endl;
+            }
+        }
 
         // If user chooses 5, display the garden.
+        if(choice == 5)
+        {
+            displayGarden(currentRow);
+        }
 
         // If user chooses 6, quit the program.
-    } while(choice != 6);
+        if(choice == 6)
+        {
+            dontLeave = false;
+            cout << "You have made: $" << fixed << setprecision(2) << totalPrice << " on " << totalHarvests << " harvests." << endl;
+        }
+    } while(dontLeave);
 
 
     // When the user decides to quit the program, print out the total money the user earned, and number of
