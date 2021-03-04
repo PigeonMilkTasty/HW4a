@@ -1,0 +1,676 @@
+Script started on 2021-03-04 10:23:02-0600
+]0;jdf028@turing: ~[01;32mjdf028@turing[00m:[01;34m~[00m$ ./hw4a.exe
+
+Name: Jesse Ford
+UAID: 010893900
+
+----------------------------------------
+=          Garden Simulator            =
+----------------------------------------
+
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Sorry! You must select a seed type first.
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 3
+Sorry! You need to have crops planted before you can water them!
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 4
+Sorry! You can only harvest if you have planted and watered all of your crops!
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+4
+How many Pumpkin seeds would you like to plant?
+10
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 5
+
+   __________________________________________
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+   ------------------------------------------
+  o = empty
+  x = planted
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: y
+You have planted 10 Pumpkin seeds.
+Row 1 is worth: $109.80
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 5
+
+   __________________________________________
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+   ------------------------------------------
+  o = empty
+  x = planted
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+3
+How many Wheat seeds would you like to plant?
+10
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: n
+You have planted 10 Wheat seeds.
+Row 2 is worth: $19.90
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+5
+How many Tomato seeds would you like to plant?
+15
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: n
+You have planted 15 Tomato seeds.
+Row 3 is worth: $89.85
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 5
+
+   __________________________________________
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+   ------------------------------------------
+  o = empty
+  x = planted
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 4
+Sorry! You can only harvest if you have planted and watered all of your crops!
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 3
+
+		+ 		.			.  *			+	
+*	.		.		*			+		.
+				Crops watered!		*	     +
+	.		+ 	.		+			   .
+    +		.			*			*	+
+
+All crops have been watered.
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+2
+How many Beet seeds would you like to plant?
+10
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: n
+You have planted 10 Beet seeds.
+Row 4 is worth: $39.90
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 5
+
+   __________________________________________
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | o o o o o o o o o o o o o o o o o o o o o|
+   ------------------------------------------
+  o = empty
+  x = planted
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 4
+Sorry! You can only harvest if you have planted and watered all of your crops!
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 3
+
+		+ 		.			.  *			+	
+*	.		.		*			+		.
+				Crops watered!		*	     +
+	.		+ 	.		+			   .
+    +		.			*			*	+
+
+All crops have been watered.
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+2
+How many Beet seeds would you like to plant?
+10
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: n
+You have planted 10 Beet seeds.
+Row 5 is worth: $39.90
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 4
+Sorry! You can only harvest if you have planted and watered all of your crops!
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 3
+
+		+ 		.			.  *			+	
+*	.		.		*			+		.
+				Crops watered!		*	     +
+	.		+ 	.		+			   .
+    +		.			*			*	+
+
+All crops have been watered.
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 4
+
+-----------------------------------------
+=            Crops Harvested            =
+-----------------------------------------
+You harvested: Pumpkin, Wheat, Tomato, Beet, Beet
+This harvest was worth: $299.35.You have made: $299.35 on 1 harvests so far.
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 5
+
+   __________________________________________
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+   ------------------------------------------
+  o = empty
+  x = planted
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+4
+How many Pumpkin seeds would you like to plant?
+10
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: n
+You have planted 10 Pumpkin seeds.
+Row 1 is worth: $89.90
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+1
+How many Potato seeds would you like to plant?
+15
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: n
+You have planted 15 Potato seeds.
+Row 2 is worth: $74.85
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+3
+How many Wheat seeds would you like to plant?
+15
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: y
+You have planted 15 Wheat seeds.
+Row 3 is worth: $59.70
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 5
+
+   __________________________________________
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | o o o o o o o o o o o o o o o o o o o o o|
+  | o o o o o o o o o o o o o o o o o o o o o|
+   ------------------------------------------
+  o = empty
+  x = planted
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+4
+How many Pumpkin seeds would you like to plant?
+17
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: y
+You have planted 17 Pumpkin seeds.
+Row 4 is worth: $186.66
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 1
+
+Which seeds would you like to plant?
+  [1] Potato
+  [2] Beet
+  [3] Wheat
+  [4] Pumpkin
+  [5] Tomato
+2
+How many Beet seeds would you like to plant?
+21
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 2
+Do you want to add fertilizer?  Enter Y or N: y
+You have planted 21 Beet seeds.
+Row 5 is worth: $125.58
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 5
+
+   __________________________________________
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+  | x x x x x x x x x x x x x x x x x x x x x|
+   ------------------------------------------
+  o = empty
+  x = planted
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 4
+Sorry! You can only harvest if you have planted and watered all of your crops!
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 3
+
+		+ 		.			.  *			+	
+*	.		.		*			+		.
+				Crops watered!		*	     +
+	.		+ 	.		+			   .
+    +		.			*			*	+
+
+All crops have been watered.
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 4
+
+-----------------------------------------
+=            Crops Harvested            =
+-----------------------------------------
+You harvested: Pumpkin, Potato, Wheat, Pumpkin, Beet
+This harvest was worth: $536.69.You have made: $836.04 on 2 harvests so far.
+
+Please choose an option (1-6): 
+  [1]  Choose seed type
+  [2]  Plant seed
+  [3]  Water Crops
+  [4]  Harvest & Sell Crops
+  [5]  Display Garden
+  [6]  Quit Program
+
+Enter choice: 6
+You have made: $836.04 on 2 harvests.
+]0;jdf028@turing: ~[01;32mjdf028@turing[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2021-03-04 10:25:46-0600
